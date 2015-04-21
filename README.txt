@@ -7,5 +7,6 @@ To install:
 - run cabal update followed by cabal install
 - run gamesys executable (making sure that the cabal bin is in the PATH)
 - To run the tests:
-  + Run ghci src/Tests.hs (or src\Tests.hs)
-  + try quickCheck5000 on 
+  + Run ghci src/Tests.hs (or src\Tests.hs).
+  + Run quickCheckAllTests 
+     (if an error is found, it will give the parameters x y and length used).
